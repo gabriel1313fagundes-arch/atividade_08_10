@@ -8,6 +8,6 @@ print('Lista antes:', lista)
 
 for i in range(10): '''trocar negativo por 0'''
     if lista[i] < 0:
-        lista[i] = 0
+        lista[i] = 0 
 
 print('Lista depois:', lista)
