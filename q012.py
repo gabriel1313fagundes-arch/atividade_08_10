@@ -18,3 +18,4 @@ for linha in matriz:
 
 # Calcula a soma da diagonal principal
 soma = 0
+#final
