@@ -12,4 +12,13 @@ matriz = [
     [25, 10, 7]
 ]
 
-# termina na próxima Aula
+soma_linhas = []
+
+for linha in matriz:
+    total_linha = 0
+    for elemento in linha:
+        total_linha += elemento  # Soma dos elementos
+    soma_linhas.append(total_linha)
+
+print(soma_linhas)
+
